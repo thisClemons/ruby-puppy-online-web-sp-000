@@ -17,16 +17,16 @@ class Dog
   end
 
   def print_all
-    @@all.each {|dog|, puts dog}
+    @@all.each {|dog| puts dog}
   end
 
   private
 
   def save
-    @@all << self    
+    @@all << self
   end
 
-  
+
 
 
 

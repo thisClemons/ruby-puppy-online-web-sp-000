@@ -1,4 +1,6 @@
 # Add your code here
+require 'pry'
+
 class Dog
 
   @@all = []
@@ -23,6 +25,7 @@ class Dog
   private
 
   def save
+    binding.pry
     @@all << self
   end
 

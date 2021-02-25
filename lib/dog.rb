@@ -22,8 +22,6 @@ class Dog
     @@all.each {|dog| puts dog.name}
   end
 
-  #private
-
   def save
     #binding.pry
     @@all << self

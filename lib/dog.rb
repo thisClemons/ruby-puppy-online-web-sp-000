@@ -22,7 +22,7 @@ class Dog
     @@all.each {|dog| puts dog.name}
   end
 
-  private
+  #private
 
   def save
     #binding.pry
